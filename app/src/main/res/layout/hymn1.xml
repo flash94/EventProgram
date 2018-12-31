@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:slain="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#413e4f"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="In Christ Alone"
+                android:textColor="#FF4081"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="In Christ alone my hope is found,\nHe is my light, my strength, my song;\nThis Cornerstone, this solid Ground,\nFirm through the fiercest drought and storm.\nWhat heights of love, what depths of peace,\nWhen fears are stilled, when strivings cease!\nMy Comforter, my All in All,\nHere in the love of Christ I stand.\n"
+                android:textColor="#ff7e0a"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#38b6ff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="In Christ alone! – who took on flesh,\nFullness of God in helpless babe.\nThis gift of love and righteousness,\nScorned by the ones He came to save:\nTill on that cross as Jesus died,\nThe wrath of God was satisfied –\nFor every sin on Him was laid;\nHere in the death of Christ I live."
+                android:textColor="#ff7e0a"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#38b6ff" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="There in the ground His body lay,\nLight of the world by darkness slain:\nThen bursting forth in glorious day\nUp from the grave He rose again!\nAnd as He stands in victory\nSin’s curse has lost its grip on me,\nFor I am His and He is mine –\n Bought with the precious blood of Christ."
+                android:textColor="#ff7e0a"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#38b6ff" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="No guilt in life, no fear in death,\nThis is the power of Christ in me;\nFrom life’s first cry to final breath,\nJesus commands my destiny.\nNo power of hell, no scheme of man,\nCan ever pluck me from His hand:\nTill He returns or calls me home,\nHere in the power of Christ I’ll stand."
+                android:textColor="#ff7e0a"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

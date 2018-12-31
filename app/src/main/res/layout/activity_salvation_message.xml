@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:slain="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#413e4f"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Salvation's Prayer"
+                android:textColor="#FF4081"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="If you have not taken the step to become a Christian, it's as simple as praying this prayer \nDear Lord Jesus,\n
+Thank you for dying on the cross for my sin. Please forgive me. Come into my life. I receive You as my Lord and Savior. Now, help me to live for you the rest of this life.
+In the name of Jesus, I pray.
+Amen."
+                android:textColor="#ff7e0a"
+                android:textSize="25sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
